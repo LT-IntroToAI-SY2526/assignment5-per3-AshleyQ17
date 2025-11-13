@@ -22,11 +22,14 @@ After completing the assignment, answer the following reflection questions:
 ## Reflection Questions
 
 1. What are some things that you learned through this assignment? Think about the concepts of backtracking, constraint satisfaction, and search algorithms. Were there any particular challenges you faced while implementing the Board class methods or the DFS/BFS functions? How did you overcome them?
-
+Some things that I learned through this assignment was what breadth-first search and depth-first search is and how to implement it in this assignment for the sudoku board. I didn't experience many challenges while I was implementing the DFS/BFS functions but I did have an error for both functions where instead of writing rows I wrote row which made both functions not work and I had some difficulty finding that issue.   
 
 
 2. How can you apply what you learned in this assignment to future programs or projects? Consider other types of problems that involve searching through possibilities, making decisions, and backtracking when those decisions don't work out. Can you think of real-world scenarios where DFS or BFS might be useful? What about other constraint satisfaction problems?
-
+I can apply what I learned in this assignment to future programs like making a maze solver, it searches for possibilities to solve the maze and when that doesn't work out it searches for another way to solve it until it finally solves it, similar to the sudoku one for this assignment. A real world scenario where DFS or BFS might be useful is when navigating through a new place, DFS could be used to explore different possible routes while BFS can be used by finding the shortest route to get to a spot.
 
 
 3. Explain how the Stack and Queue classes work and why they are important for DFS and BFS algorithms. Describe the difference between LIFO (Last In First Out) and FIFO (First In First Out) data structures. How does using a Stack versus a Queue change the way the search algorithm explores possible solutions? Why is one data structure better suited for depth-first search and the other for breadth-first search?
+The Stack and Queues classes work by first 
+
+First in first out data structures work by the first one being pushed gets popped before the others since it pops them in sequence from when they got pushed. Last in First Out works by popping first the things that were popped last, meaning that it pops 
